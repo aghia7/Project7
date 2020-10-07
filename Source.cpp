@@ -5,7 +5,8 @@ void bubbleSort(int*, int);
 void printArray(int*, int);
 void mySwap(int&, int&);
 
-int compare(int a, int b) {
+template <class T>
+T compare(T a, T b) {
 	return a - b;
 }
 
