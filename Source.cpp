@@ -27,6 +27,10 @@ bool isPrime(int n) {
 	return true;
 }
 
+void sayHello() {
+	cout << "Hello" << endl;
+}
+
 int main()
 {
 	cout << compare << endl;
