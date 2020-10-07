@@ -18,6 +18,10 @@ char getSign(int a, int b) {
 	return '=';
 }
 
+void sayHello() {
+	cout << "Hello" << endl;
+}
+
 int main()
 {
 	cout << compare << endl;
